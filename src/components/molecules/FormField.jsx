@@ -14,14 +14,13 @@ import React from 'react'
         charCount,
         charLimit
 }) => {
-        const hasError = !!error
+const hasError = !!error
         
         const inputProps = {
           value,
           onChange: (e) => onChange(e.target.value),
           placeholder,
           maxLength,
-          hasError,
           type
         }
       
@@ -35,7 +34,7 @@ import React from 'react'
                 </span>
               )}
             </div>
-{type === 'textarea' ? (
+            {type === 'textarea' ? (
               <textarea
                 {...inputProps}
                 className={`form-input resize-none h-24 ${hasError ? 'border-red-300 focus:border-red-500' : ''}`}
