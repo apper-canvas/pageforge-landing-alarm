@@ -90,11 +90,12 @@ useEffect(() => {
                   onCreateFirstPage={() => setActiveTab('builder')}
                 />
               </div>
-            )}
+)}
             
             {activeTab === 'settings' && (
               <SettingsPanel comingSoonFeatures={comingSoonFeatures} />
-</DashboardLayout>
+            )}
+          </DashboardLayout>
         )
       }
       
