@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1701234567890,
+    "title": "Revolutionary AI Writing Assistant",
+    "description": "Transform your writing with our advanced AI technology. Create compelling content 10x faster with intelligent suggestions and auto-completion.",
+    "ctaText": "Start Writing Now",
+    "themeId": "modern",
+    "url": "https://pageforge.app/ai-writing-assistant-1701234567890",
+    "createdAt": "2024-01-15T10:30:00.000Z",
+    "customColors": {
+      "primary": "#6366F1",
+      "secondary": "#10B981"
+    },
+    "socialLinks": [
+      "https://twitter.com/aiwriter",
+      "https://linkedin.com/company/aiwriter"
+    ],
+    "analytics": {
+      "views": 1247,
+      "clicks": 89,
+      "conversions": 23
+    }
+  },
+  {
+    "id": 1701234567891,
+    "title": "Premium Yoga Classes Online",
+    "description": "Join thousands of students in our live online yoga sessions. Expert instructors, beginner-friendly classes, and flexible scheduling.",
+    "ctaText": "Book Your Class",
+    "themeId": "minimal",
+    "url": "https://pageforge.app/yoga-classes-1701234567891",
+    "createdAt": "2024-01-14T14:22:00.000Z",
+    "customColors": {
+      "primary": "#059669",
+      "secondary": "#F59E0B"
+    },
+    "socialLinks": [
+      "https://instagram.com/yogastudio",
+      "https://facebook.com/yogastudio"
+    ],
+    "analytics": {
+      "views": 892,
+      "clicks": 156,
+      "conversions": 45
+    }
+  },
+  {
+    "id": 1701234567892,
+    "title": "Digital Marketing Bootcamp",
+    "description": "Master modern digital marketing in 8 weeks. Learn SEO, social media, content marketing, and paid advertising from industry experts.",
+    "ctaText": "Enroll Today",
+    "themeId": "bold",
+    "url": "https://pageforge.app/marketing-bootcamp-1701234567892",
+    "createdAt": "2024-01-13T09:15:00.000Z",
+    "customColors": {
+      "primary": "#DC2626",
+      "secondary": "#7C3AED"
+    },
+    "socialLinks": [
+      "https://twitter.com/marketingboot",
+      "https://youtube.com/marketingbootcamp"
+    ],
+    "analytics": {
+      "views": 2134,
+      "clicks": 245,
+      "conversions": 67
+    }
+  },
+  {
+    "id": 1701234567893,
+    "title": "Handcrafted Furniture Studio",
+    "description": "Discover unique, handcrafted furniture pieces made from sustainable materials. Each piece tells a story and adds character to your home.",
+    "ctaText": "Shop Collection",
+    "themeId": "elegant",
+    "url": "https://pageforge.app/furniture-studio-1701234567893",
+    "createdAt": "2024-01-12T16:45:00.000Z",
+    "customColors": {
+      "primary": "#92400E",
+      "secondary": "#059669"
+    },
+    "socialLinks": [
+      "https://instagram.com/furniturestudio",
+      "https://pinterest.com/furniturestudio"
+    ],
+    "analytics": {
+      "views": 567,
+      "clicks": 78,
+      "conversions": 12
+    }
+  },
+  {
+    "id": 1701234567894,
+    "title": "Mobile App Development Course",
+    "description": "Build iOS and Android apps from scratch. Learn React Native, Flutter, and native development with hands-on projects and mentorship.",
+    "ctaText": "Start Learning",
+    "themeId": "tech",
+    "url": "https://pageforge.app/app-dev-course-1701234567894",
+    "createdAt": "2024-01-11T11:20:00.000Z",
+    "customColors": {
+      "primary": "#1E40AF",
+      "secondary": "#10B981"
+    },
+    "socialLinks": [
+      "https://github.com/appdevcourse",
+      "https://discord.gg/appdev"
+    ],
+    "analytics": {
+      "views": 1876,
+      "clicks": 312,
+      "conversions": 89
+    }
+  },
+  {
+    "id": 1701234567895,
+    "title": "Organic Skincare Revolution",
+    "description": "Transform your skin naturally with our certified organic skincare line. Cruelty-free, sustainable, and effective for all skin types.",
+    "ctaText": "Shop Now",
+    "themeId": "creative",
+    "url": "https://pageforge.app/organic-skincare-1701234567895",
+    "createdAt": "2024-01-10T13:55:00.000Z",
+    "customColors": {
+      "primary": "#065F46",
+      "secondary": "#F59E0B"
+    },
+    "socialLinks": [
+      "https://instagram.com/organicskincare",
+      "https://tiktok.com/@organicskincare"
+    ],
+    "analytics": {
+      "views": 1432,
+      "clicks": 189,
+      "conversions": 56
+    }
+  }
+]

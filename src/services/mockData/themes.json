@@ -1,0 +1,90 @@
+[
+  {
+    "id": "modern",
+    "name": "Modern Gradient",
+    "preview": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#6366F1"
+    },
+    "category": "modern"
+  },
+  {
+    "id": "minimal",
+    "name": "Clean Minimal",
+    "preview": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "#ffffff",
+      "textColor": "#1f2937",
+      "buttonColor": "#10B981"
+    },
+    "category": "minimal"
+  },
+  {
+    "id": "bold",
+    "name": "Bold Impact",
+    "preview": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(45deg, #ff6b6b 0%, #ee5a24 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#ffffff"
+    },
+    "category": "bold"
+  },
+  {
+    "id": "elegant",
+    "name": "Dark Elegant",
+    "preview": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #2c3e50 0%, #34495e 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#F59E0B"
+    },
+    "category": "elegant"
+  },
+  {
+    "id": "creative",
+    "name": "Creative Burst",
+    "preview": "https://images.unsplash.com/photo-1561038398-4b999fb1e11c?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%)",
+      "textColor": "#2d3436",
+      "buttonColor": "#e17055"
+    },
+    "category": "creative"
+  },
+  {
+    "id": "tech",
+    "name": "Tech Blue",
+    "preview": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #74b9ff 0%, #0984e3 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#00b894"
+    },
+    "category": "tech"
+  },
+  {
+    "id": "nature",
+    "name": "Nature Fresh",
+    "preview": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #00b894 0%, #00cec9 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#fdcb6e"
+    },
+    "category": "nature"
+  },
+  {
+    "id": "luxury",
+    "name": "Luxury Gold",
+    "preview": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #2c2c54 0%, #40407a 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#f39c12"
+    },
+    "category": "luxury"
+  }
+]

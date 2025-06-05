@@ -1,0 +1,114 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    @apply text-gray-900 antialiased;
+    background: #F9FAFB;
+  }
+  
+  * {
+    @apply border-gray-200;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .bg-gradient-primary {
+    background: linear-gradient(135deg, #6366F1, #8B5CF6);
+  }
+  
+  .glass-morphism {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+@layer components {
+  .form-input {
+    @apply w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-primary focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-200 bg-white;
+  }
+  
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-2;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-primary text-white font-medium rounded-xl hover:shadow-lg transform hover:scale-105 active:scale-95 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-white text-gray-700 font-medium rounded-xl border border-gray-200 hover:border-gray-300 hover:shadow-md transform hover:scale-105 active:scale-95 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-200;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl border border-gray-100 shadow-card hover:shadow-soft transition-shadow duration-200;
+  }
+}
+
+/* Toast customization */
+.Toastify__toast-container {
+  @apply font-sans;
+}
+
+.Toastify__toast {
+  @apply rounded-xl shadow-lg;
+}
+
+.Toastify__toast--success {
+  @apply bg-secondary text-white;
+}
+
+.Toastify__toast--error {
+  @apply bg-red-500 text-white;
+}
+
+.Toastify__toast--warning {
+  @apply bg-accent text-white;
+}
+
+/* Responsive design base */
+@screen sm {
+  .container {
+    @apply max-w-screen-sm;
+  }
+}
+
+@screen md {
+  .container {
+    @apply max-w-screen-md;
+  }
+}
+
+@screen lg {
+  .container {
+    @apply max-w-screen-lg;
+  }
+}
+
+@screen xl {
+  .container {
+    @apply max-w-screen-xl;
+  }
+}
+
+@screen 2xl {
+  .container {
+    @apply max-w-screen-2xl;
+  }
+}
