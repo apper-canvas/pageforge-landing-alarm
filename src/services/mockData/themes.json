@@ -84,7 +84,84 @@
       "background": "linear-gradient(135deg, #2c2c54 0%, #40407a 100%)",
       "textColor": "#ffffff",
       "buttonColor": "#f39c12"
-    },
+},
     "category": "luxury"
+  },
+  {
+    "id": "startup",
+    "name": "Startup Fresh",
+    "preview": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#f093fb"
+    },
+    "category": "startup"
+  },
+  {
+    "id": "agency",
+    "name": "Agency Pro",
+    "preview": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#ff6b6b"
+    },
+    "category": "agency"
+  },
+  {
+    "id": "portfolio",
+    "name": "Portfolio Clean",
+    "preview": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "#f8f9fa",
+      "textColor": "#212529",
+      "buttonColor": "#6c757d"
+    },
+    "category": "portfolio"
+  },
+  {
+    "id": "ecommerce",
+    "name": "E-commerce Vibrant",
+    "preview": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+      "textColor": "#2d3436",
+      "buttonColor": "#fd79a8"
+    },
+    "category": "ecommerce"
+  },
+  {
+    "id": "health",
+    "name": "Health & Wellness",
+    "preview": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #a8edea 0%, #fed6e3 100%)",
+      "textColor": "#2d3436",
+      "buttonColor": "#00cec9"
+    },
+    "category": "health"
+  },
+  {
+    "id": "education",
+    "name": "Education Hub",
+    "preview": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+      "textColor": "#2d3436",
+      "buttonColor": "#e17055"
+    },
+    "category": "education"
+  },
+  {
+    "id": "finance",
+    "name": "Finance Trust",
+    "preview": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center",
+    "styles": {
+      "background": "linear-gradient(135deg, #134e5e 0%, #71b280 100%)",
+      "textColor": "#ffffff",
+      "buttonColor": "#fdcb6e"
+    },
+    "category": "finance"
   }
 ]

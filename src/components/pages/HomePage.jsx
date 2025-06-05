@@ -94,7 +94,7 @@ import { useState, useEffect } from 'react'
               <SettingsPanel comingSoonFeatures={comingSoonFeatures} />
             )}
           </DashboardLayout>
-        )
+)
       }
       
       export default HomePage

@@ -33,8 +33,9 @@ import React from 'react'
                   </div>
                   
                   <div className="hidden lg:block">
-                    <Title level={1}>
+<Title level={1}>
                       {activeTab === 'builder' && 'Landing Page Builder'}
+                      {activeTab === 'templates' && 'Template Library'}
                       {activeTab === 'pages' && 'My Pages'}
                       {activeTab === 'settings' && 'Settings'}
                     </Title>
