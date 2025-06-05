@@ -13,13 +13,15 @@ import React from 'react'
         error,
         charCount,
         charLimit
-      }) => {
+}) => {
+        const hasError = !!error
+        
         const inputProps = {
           value,
           onChange: (e) => onChange(e.target.value),
           placeholder,
           maxLength,
-          hasError: !!error,
+          hasError,
           type
         }
       
@@ -33,13 +35,13 @@ import React from 'react'
                 </span>
               )}
             </div>
-            {type === 'textarea' ? (
+{type === 'textarea' ? (
               <textarea
                 {...inputProps}
-                className={`form-input resize-none h-24 ${inputProps.hasError ? 'border-red-300 focus:border-red-500' : ''}`}
+                className={`form-input resize-none h-24 ${hasError ? 'border-red-300 focus:border-red-500' : ''}`}
               />
             ) : (
-              <Input {...inputProps} />
+              <Input {...inputProps} hasError={hasError} />
             )}
             {error && <Text className="text-red-500 text-sm mt-1">{error}</Text>}
           </div>
