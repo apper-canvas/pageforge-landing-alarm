@@ -13,23 +13,25 @@ import { useState, useEffect } from 'react'
         const [activeTab, setActiveTab] = useState('builder')
         const [showComingSoon, setShowComingSoon] = useState(false)
       
-        useEffect(() => {
-          const loadMyPages = async () => {
-            setLoading(true)
-            try {
-              const pages = await landingPageService.getAll()
-              setMyPages(pages)
-            } catch (err) {
-              setError(err.message)
-            } finally {
-              setLoading(false)
-            }
+useEffect(() => {
+        const loadMyPages = async () => {
+          setLoading(true)
+          try {
+            const pages = await landingPageService.getAll()
+            setMyPages(pages)
+            setError(null)
+          } catch (err) {
+            setError(err.message || 'Failed to load pages')
+            console.error('Error loading pages:', err)
+          } finally {
+            setLoading(false)
           }
-          
-          if (activeTab === 'pages') {
-            loadMyPages()
-          }
-        }, [activeTab])
+        }
+        
+        if (activeTab === 'pages') {
+          loadMyPages()
+        }
+      }, [activeTab])
       
         const handlePageCreated = async (newPage) => {
           try {
@@ -92,9 +94,8 @@ import { useState, useEffect } from 'react'
             
             {activeTab === 'settings' && (
               <SettingsPanel comingSoonFeatures={comingSoonFeatures} />
-            )}
-          </DashboardLayout>
-)
+</DashboardLayout>
+        )
       }
       
       export default HomePage
